@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.equalTo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/* import com.sinangoo.test.HelloWorld; */
+import com.sinangoo.test.HelloWorld;
 
 public class MainTest {
 
@@ -18,11 +18,11 @@ public class MainTest {
     @Test
     public void doesRespond() {
         LOGGER.debug("create hello world instance");
-        /* HelloWorld hello = new HelloWorld(); */
-        /* hello.put("a","aaa aaaa"); */
-        /* hello.put("a","bbb bbb"); */
-        /* hello.put("a","ccc ccc"); */
-        /* LOGGER.debug("hello world string: " + hello); */
+        HelloWorld hello = new HelloWorld();
+        hello.put("a","aaa aaaa");
+        hello.put("a","bbb bbb");
+        hello.put("a","ccc ccc");
+        LOGGER.debug("hello world string: " + hello);
     }
 
 }

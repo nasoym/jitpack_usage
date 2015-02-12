@@ -4,6 +4,10 @@ task wrapper(type: Wrapper) {
 
 allprojects {
     repositories {
+        mavenLocal()
+        maven {
+            url 'https://jitpack.io/'
+        }
         mavenCentral()
     }
 }
