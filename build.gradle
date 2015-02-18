@@ -6,7 +6,7 @@ allprojects {
     repositories {
         mavenLocal()
         maven {
-            url 'https://jitpack.io/'
+            url 'https://jitpack.io'
         }
         mavenCentral()
     }
